@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+main{
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 20px;
+}
+.file{
+  display: block !important;
+}
+.footer-text{
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -68px;
+    z-index: -9;
+  }
